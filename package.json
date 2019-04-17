@@ -1,0 +1,25 @@
+{
+  "name": "break-time-theme",
+  "version": "1.0.0",
+  "description": "This is a theme for the macOS app, Time Out",
+  "main": "server.js",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamasigla/break-time-theme.git"
+  },
+  "author": "Pauline Masigla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pamasigla/break-time-theme/issues"
+  },
+  "homepage": "https://github.com/pamasigla/break-time-theme#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

@@ -2,7 +2,9 @@
 
 This is a theme for the macOS app, Time Out
 
-![Theme preview](./assets/img/screenshot.png)
+[Theme homepage](https://pamasigla.github.io/break-time-theme/)
+
+![Theme preview](./public/assets/img/screenshot.png)
 
 Photo by Chloe Leis (@tsunamiholmes) from Unsplash [[link](https://unsplash.com/photos/OVZ-pBvwPfA)]
 
@@ -21,3 +23,10 @@ Taken from the official [Time Out](https://www.dejal.com/timeout/extras/) site:
   ```sh
     mv Break\ Time.totheme  /path/to/Themes
   ```
+
+## Development
+
+To deploy the theme:
+   ```sh
+     npm run deploy
+   ```
