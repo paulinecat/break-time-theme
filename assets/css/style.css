@@ -1,0 +1,71 @@
+@import './reset.css';
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 0;
+    color: #FFF;
+}
+
+html, body, .container {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.container::after {
+    content: '';
+    background-image: url('../img/chloe-leis-1458987-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    max-width: 700px;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -.15rem;
+}
+
+a.author-link {
+    color: inherit;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a.author-link .author-name {
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
