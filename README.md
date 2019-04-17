@@ -26,6 +26,11 @@ Taken from the official [Time Out](https://www.dejal.com/timeout/extras/) site:
 
 ## Development
 
+To run the theme locally:
+   ```sh
+     npm run start
+   ```
+
 To deploy the theme:
    ```sh
      npm run deploy

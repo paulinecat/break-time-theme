@@ -4,6 +4,7 @@
   "description": "This is a theme for the macOS app, Time Out",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "deploy": "gh-pages -d public"
   },
   "repository": {
