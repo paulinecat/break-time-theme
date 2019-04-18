@@ -27,20 +27,6 @@ html, body, .container {
   position: relative;
 }
 
-/* .container::after {
-  content: '';
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: block;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-} */
-
-
 .content {
   max-width: 700px;
   padding: 0 3rem;
