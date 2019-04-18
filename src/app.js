@@ -7,7 +7,10 @@ const unsplash = new Unsplash({
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  unsplash.photos.getPhoto('OVZ-pBvwPfA')
+  unsplash.photos.getRandomPhoto({
+    query: 'cat',
+    width: 1600
+  })
   .then(toJson)
   .then(json => {
     const img = document.getElementById('bg-img');
