@@ -1,10 +1,18 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
-const port = 3000;
+const PORT = 3000;
 
-app.use(express.static('public'));
+const DIST_DIR = 'public';
+const INDEX_FILE = path.resolve(DIST_DIR, 'index.html');
 
-app.listen(port, () => {
-  console.log(`Theme app is listening on http://localhost:${port}`);
+app.use(express.static(DIST_DIR));
+
+app.get('*', (req, res) => {
+  res.sendFile(INDEX_FILE);
+});
+
+app.listen(PORT, () => {
+  console.log(`Theme app is listening on http://localhost:${PORT}`);
 });
