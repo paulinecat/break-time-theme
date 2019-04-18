@@ -85,7 +85,7 @@ a#author-link:hover, a#author-link:focus {
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
   animation-timing-function: ease-in;
-	animation-duration: 2s;
+	animation-duration: 3s;
 }
 
 @keyframes fadeInOpacity {
