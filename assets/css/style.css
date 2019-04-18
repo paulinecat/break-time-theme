@@ -56,7 +56,7 @@ a#author-link:hover, a#author-link:focus {
   text-decoration: underline;
 }
 
-#bg-img {
+img#bg-img {
   position: absolute;
   top: 0;
   left: 0;
